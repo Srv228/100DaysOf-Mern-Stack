@@ -118,3 +118,112 @@ function sumAll(startIndex , endIndex){
 }
 
 console.log(sumAll(1,100));
+
+
+// Function can take other function as input
+
+// function sum(index1, index2) {
+//   return index1 + index2;
+// }
+
+// function multiply(index1, index2) {
+//   return index1 * index2;
+// }
+
+// function divide(index1, index2) {
+//   return index1 / index2;
+// }
+
+// function doArithmatic(firstEl, secondEl, arithmeticFn) {
+//   return arithmeticFn(firstEl, secondEl);
+// }
+
+// console.log(doArithmatic(1, 2, sum)); //3
+// console.log(doArithmatic(1, 2, multiply)); //2
+
+// Pattern creation
+
+// function createPattern(numerOfRows) {
+//   for (var i = 0; i < numerOfRows; i++) {
+//     var stringPrint = "";
+//    for(var j = 0; j<i+1; j++){
+//       stringPrint = stringPrint + "*";
+//    }
+
+//    console.log(stringPrint);
+//   }
+// }
+
+// createPattern(10)
+
+//1
+
+// *
+
+//2
+
+// *
+// **
+
+// 3
+
+// *
+// **
+// ***
+
+/*
+
+**
+****
+******
+********
+
+  */
+
+
+function starLine(n){
+    var answer = "";
+    for (var i = 0 ; i < n; i++){
+        answer+="**"
+    }
+    console.log(answer);
+}
+
+
+
+function starryPattern(n) {
+
+//   if (n == 1) {
+//     console.log("**");
+//   }
+
+//   if (n == 2) {
+//     console.log("**");
+//     console.log("****");
+//   }
+
+//   if (n == 3) {
+//     console.log("**");
+//     console.log("****");
+//     console.log("******");
+//   }
+
+
+
+// this problem can be solved By Loop
+
+
+for ( var i = 0; i<=n; i++){
+    starLine(i)
+}
+
+}
+
+console.log(starryPattern(3));
+
+//   5
+
+// console.log("**");
+// console.log("****");
+// console.log("******");
+// console.log("********");
