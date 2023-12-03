@@ -227,3 +227,5 @@ console.log(starryPattern(3));
 // console.log("****");
 // console.log("******");
 // console.log("********");
+
+// JavaScript ---- Asynchronous , interpreted , single threaded 
