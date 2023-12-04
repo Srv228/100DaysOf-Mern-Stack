@@ -229,3 +229,6 @@ console.log(starryPattern(3));
 // console.log("********");
 
 // JavaScript ---- Asynchronous , interpreted , single threaded 
+
+
+// Callback
